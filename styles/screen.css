@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*@import "sass/partials/_variables.scss";
+@import "sass/partials/_body.scss";*/
+header {
+  background-image: url("../../../pictures/Hero-MMAGNIN_DPS_ARMADA_ROUEN_BD-9.webp");
+  background-size: cover;
+  height: 300px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: 150px;
+  }
+}
+
+/*---Logo---*/
+.logoRedCross {
+  /*Style pour les écrans mobiles*/
+  height: 80px;
+  border-radius: 20px;
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .logoRedCross {
+    height: 30px;
+  }
+}
+
+.boutonDon {
+  width: 150px;
+  background-color: red;
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  border-radius: 50px;
+}
+.boutonDon a {
+  text-decoration: none;
+  color: white;
+}
+.boutonDon a .boutonDon2:before {
+  content: "FAIRE UN DON";
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .boutonDon a .boutonDon2:before {
+    content: "DON";
+  }
+}
+@media screen and (max-width: 768px) {
+  .boutonDon {
+    width: 80px;
+    top: 80px;
+  }
+}
+
+body {
+  background-color: aliceblue;
+}/*# sourceMappingURL=screen.css.map */

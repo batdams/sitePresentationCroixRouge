@@ -1,23 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <header>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil et présentation de la Croix-Rouge</title>
         <meta name="description" content="Ce site présente les missions de l'association d'aide humanitaire de la Croix-Rouge ainsi que son actualité">
         <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="styles/styles.css" type="text/css">
-    </header>
-<body>
-    <head>
-        
+        <link rel="stylesheet" href="styles/screen.css" type="text/css"> <!--A RETIRER QUAND SASS FINI-->
     </head>
-    <main>
+    <body>
+        <header class="container-fluid">
+            <div class="row align-items-end h-100">
+                <div class="col-4 col-lg-8 order-lg-2 p-3">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRedCross" aria-controls="navbarRedCross" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> <!--bouton de nav sur mobile-->                      
+                            <div class="collapse navbar-collapse" id="navbarRedCross">
+                                <ul class="navbar-nav m-1">
+                                    <li class="nav-item m-1"><a class="navlink" href="index.html"><img src="pictures/house-solid.svg" alt="Home" style="height: 32px;"></a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">Missions</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">Actualité</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-4 col-lg-2 order-lg-1 p-3"><img class="logoRedCross" src="pictures/crf_logo.png" alt="Logo Croix-Rouge"></div>
+                <div class="boutonDon col-4 col-lg-2 p-3"><a class="boutonDonLink" href="https://donner.croix-rouge.fr/faire-un-don/~mon-don"><span class="boutonDon2"></span></a></div>
+            </div>
+        </header>
+        <main class="container-fluid">
+            <section>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="titleMission">Les missions</h2>
+                        <div class="accordion" id="accordionMission">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionUrgence" aria-expanded="false" aria-controls="collapseOne">
+                                        Urgence et opération
+                                    </button>
+                                </h2>
+                                <div id="missionUrgence" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                                    <div class="accordion-body">
+                                        <article>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, odio!
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
+                                    Secourisme
+                                  </button>
+                                </h2>
+                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                                    <div class="accordion-body">
+                                        <article>
+                                        
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
+                                    Action sociale
+                                  </button>
+                                </h2>
+                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                                    <div class="accordion-body">
+                                        <article>
+                                        
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
+                                    Actions sanitaires et médico-sociales
+                                  </button>
+                                </h2>
+                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                                    <div class="accordion-body">
+                                        <article>
+                                        
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
+                                    Jeunesse et citoyenneté
+                                  </button>
+                                </h2>
+                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                                    <div class="accordion-body">
+                                        <article>
+                                        
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </main>
+        <footer>
 
-    </main>
-    <footer>
-
-    </footer>
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-</body>
+        </footer>
+        <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
