@@ -1,0 +1,14 @@
+.titleMission, .titleChiffres {
+    width: fit-content;
+    margin: 50px;;
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+    background: linear-gradient(
+    to right, 
+    hsl(2, 64%, 58%), 
+    hsl(0, 100%, 15%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

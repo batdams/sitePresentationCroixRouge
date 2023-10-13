@@ -21,8 +21,8 @@
                             <div class="collapse navbar-collapse" id="navbarRedCross">
                                 <ul class="navbar-nav m-1">
                                     <li class="nav-item m-1"><a class="navlink" href="index.html"><img src="pictures/house-solid.svg" alt="Home" style="height: 32px;"></a></li>
-                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">Missions</a></li>
-                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">Actualité</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="#titleMission">MISSIONS</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">ACTUALITES</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -32,86 +32,134 @@
                 <div class="boutonDon col-4 col-lg-2 p-3"><a class="boutonDonLink" href="https://donner.croix-rouge.fr/faire-un-don/~mon-don"><span class="boutonDon2"></span></a></div>
             </div>
         </header>
-        <main class="container-fluid">
+        <main class="container">
             <section>
-                <div class="row">
-                    <div class="col">
-                        <h2 class="titleMission">Les missions</h2>
-                        <div class="accordion" id="accordionMission">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionUrgence" aria-expanded="false" aria-controls="collapseOne">
-                                        Urgence et opération
-                                    </button>
-                                </h2>
-                                <div id="missionUrgence" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
-                                    <div class="accordion-body">
-                                        <article>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, odio!
-                                        </article>
+                <article>
+                    <div class="d-flex justify-content-center">
+                        <h2 class="titleChiffres">La croix rouge en chiffres <sub>(chiffres-clés en 2023)</sub></h2>
+                    </div>
+                        <ul>
+                            <li>Une communauté de 100 000 volontaires</li>
+                        </ul>
+                        <h3>Le secourisme</h3>
+                        <ul>
+                            <li>64 430 personnes prises en charge</li>
+                            <li>12 467 postes de secours</li>
+                            <li>10 446 interventions</li>
+                            <li>53 000 bénévoles formés</li>
+                            <li>8 000 intervenants secouristes</li>
+                            <li>48 548 formés au PSC1</li>
+                            <li>23 070 initiés aux premiers secours</li>
+                        </ul>
+                        <h3>Les structures sanitaires et médico-sociales</h3>
+                        <ul>
+                            <li>30 structures de santé</li>
+                            <li>18 établissement de santé</li>
+                            <li>5 services d'HAD</li>
+                        </ul>
+                </article>
+            </section>
+            <section>
+                <div class="d-flex justify-content-center">
+                    <h2 class="titleMission" id="titleMission">Nos missions en France</h2>
+                </div>
+                <div class="accordion" id="accordionMission">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionUrgence" aria-expanded="false" aria-controls="collapseOne">
+                                Urgence et opérations
+                            </button>
+                        </h2>
+                        <div id="missionUrgence" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                            <div class="accordion-body">
+                                <article>
+                                    <div class="text-start">
+                                        <p>Inondations, tempêtes, incendies, crise sanitaire, catastrophe industrielle... depuis plusieurs années, les Français sont régulièrement impactés par des crises de grande ampleur qui s'avèrent de plus en plus intenses, complexes et dévastatrices.</p>
+                                        <p>Notre maillage territorial unique de plus de <b>1000 implantations locales</b> et nos <b>8 400 bénévoles secouristes</b> mobilisables dans l'urgence nous permettent d'agir rapidement auprès des populations sinistrées.</p>
+                                        <p>Sur le terrain, nos équipes de volontaires mettent à l'abri, prodiguent les premiers soins, offrent un hébergement d'urgence, accueillent, écoutent, orientent, distribuent des biens de première nécessité... pour apaiser les souffrances physiques et psychologiques. Précurseur et acteur de référence dans le domaine du secours, notre association s'inscrit plus largement dans une démarche de sécurité civile globale et performante.</p> 
+                                        <img class="w-100" src="pictures/urgences.webp" alt="Urgences et opérations">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
-                                    Secourisme
-                                  </button>
-                                </h2>
-                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
-                                    <div class="accordion-body">
-                                        <article>
-                                        
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
-                                    Action sociale
-                                  </button>
-                                </h2>
-                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
-                                    <div class="accordion-body">
-                                        <article>
-                                        
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
-                                    Actions sanitaires et médico-sociales
-                                  </button>
-                                </h2>
-                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
-                                    <div class="accordion-body">
-                                        <article>
-                                        
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
-                                    Jeunesse et citoyenneté
-                                  </button>
-                                </h2>
-                                <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
-                                    <div class="accordion-body">
-                                        <article>
-                                        
-                                        </article>
-                                    </div>
-                                </div>
+                                </article>
                             </div>
                         </div>
                     </div>
-                </div>
-        </section>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionSecourisme" aria-expanded="false" aria-controls="collapseTwo">
+                            Secourisme
+                            </button>
+                        </h2>
+                        <div id="missionSecourisme" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                            <div class="accordion-body">
+                                <article>
+                                    <div class="text-start">
+                                        <p>Le secourisme est une activité emblématique de la Croix-Rouge française depuis ses origines. Soucieux de faire émerger une véritable culture du risque au sein de la société, nous menons des actions de prévention, de sensibilisation et de formation auprès des populations pour permettre à chaque citoyen d'être un acteur à part entière de la chaîne de secours. Intervenir en cas de malaise cardiaque, sauver une personne qui s'étouffe, savoir arrêter une hémorragie ou simplement donner l'alerte en cas d'accident sont autant de gestes de premiers secours qui s'apprennent et qu'il est indispensable de maîtriser.</p> 
+                                        <img class="w-100" src="pictures/secourisme.webp" alt="Secourisme">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionActionSociale" aria-expanded="false" aria-controls="collapseTwo">
+                            Action sociale
+                            </button>
+                        </h2>
+                        <div id="missionActionSociale" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                            <div class="accordion-body">
+                                <article>
+                                    <div class="text-start">
+                                        <p>Dans une société en proie aux crises, les frontières entre les secteurs sanitaire et social deviennent de plus en plus ténues. L'ensemble des Français partagent des vulnérabilités et subissent encore de nombreuses difficultés, aggravées par les crises qui se superposent.</p>
+                                        <p>Présente avant, pendant, et après les crises, la Croix-Rouge française couvre un large spectre d’actions au service des populations, de la prévention et l’éducation jusqu’au relèvement et au retour à l’autonomie, en passant par la prise en charge d’urgences et le soutien au quotidien.</p>                                            
+                                        <p>Aides alimentaire et vestimentaire , maraudes, transport social : notre association se mobilise au plus près des populations vulnérables pour leur apporter des réponses adaptées à leurs besoins. Elle développe également des actions d’« aller vers » à destination des personnes les plus isolées et est un acteur majeur de l’accès aux droits et aux soins sur les territoires métropolitain et ultramarins.</p>                                            
+                                        <p>Cette présence se traduit notamment par un engagement fort pour répondre aux <b>difficultés liées à la santé mentale et au bien-être psychologique</b>, auxquelles <b>12 millions de Français seront confrontés à horizon 2030</b>.</p> 
+                                        <img class="w-100" src="pictures/actionSociale.webp" alt="Action sociale">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionActionSanitaire" aria-expanded="false" aria-controls="collapseTwo">
+                            Actions sanitaires et médico-sociales
+                            </button>
+                        </h2>
+                        <div id="missionActionSanitaire" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                            <div class="accordion-body">
+                                <article>
+                                    <div class="text-start">
+                                        <p>Face aux difficultés sanitaires et sociales qui augmentent de façon préoccupante selon les territoires, notre ambition est de favoriser l’accès de tous à des soins et un accompagnement de qualité.</p>
+                                        <p>Avec ses <b>635 établissements et services</b> répartis en France métropolitaine et en Outre-mer, notre association présente la particularité de couvrir la quasi-totalité des métiers dans les champs sanitaire et médico-social. Nous développons pour cela une offre pluridisciplinaire de proximité, adaptée aux besoins de la population et des territoires où nous sommes implantés.</p>                                       
+                                        <p>Proches du terrain, nous disposons également d’équipes spécialisées au plan national permettant d’appuyer la concrétisation de projets communs. Présents dans le secteur hospitalier, l’accompagnement des personnes âgées ou en situation de handicap en établissement et à domicile, nous concentrons plus particulièrement nos actions là où les besoins sont les moins bien couverts.</p>                                        
+                                        <p>Nous concevons ainsi des réponses et proposons des solutions adaptées, construites autour des besoins des personnes et de leur parcours.</p>
+                                        <img class="w-100" src="pictures/actionsSanitaires.webp" alt="Actions sanitaires et médico-sociales">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionJeunesse" aria-expanded="false" aria-controls="collapseTwo">
+                            Jeunesse et citoyenneté
+                            </button>
+                        </h2>
+                        <div id="missionJeunesse" class="accordion-collapse collapse" data-bs-parent="#accordionMission">
+                            <div class="accordion-body">
+                                <article>
+                                    <div class="text-start">
+                                        <p>Répondre à l’envie d’agir des jeunes et à leur désir d’engagement est plus que jamais une des grandes ambitions de la Croix-Rouge française. Ainsi, nous souhaitons leur permettre de <b>développer leurs compétences</b>, de <b>se sentir utiles socialement</b> et de mobiliser leur énergie dans des projets reconnus, au service de la collectivité. Grâce à une offre éducative fondée sur <b>l’engagement solidaire</b>, notre association donne aux enfants et aux jeunes un espace d’expériences, de formation, d’initiatives et de construction personnelle.</p>
+                                        <p>Avec la Croix-Rouge française, ils découvrent qu’ils peuvent être eux-mêmes acteurs du changement. Formation initiale ou continue, sensibilisation ou initiation, mises en projet comme le service civique ou l’appel à initiatives Red Touch’. .. sont autant d’opportunités pour les jeunes de renforcer leur contribution citoyenne. Ensemble, nous pouvons donner aux jeunes les moyens de leurs ambitions en les accompagnant dans des actions de solidarité près de chez eux.</p>
+                                        <img class="w-100" src="pictures/jeunesse.webp" alt="Jeunesse et citoyenneté">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </section>
         </main>
         <footer>
 
