@@ -21,8 +21,9 @@
                             <div class="collapse navbar-collapse" id="navbarRedCross">
                                 <ul class="navbar-nav m-1">
                                     <li class="nav-item m-1"><a class="navlink" href="index.html"><img src="pictures/house-solid.svg" alt="Home" style="height: 32px;"></a></li>
-                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="#titleMission">MISSIONS</a></li>
-                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="...">ACTUALITES</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="#titleChiffres">LES CHIFFRES</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="#titleMission"> LES MISSIONS</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="actualite.html">L'ACTUALITE</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -36,8 +37,9 @@
             <section>
                 <article>
                     <div class="d-flex justify-content-center">
-                        <h2 class="titleChiffres">La croix rouge en chiffres <sub>(chiffres-clés en 2023)</sub></h2>
+                        <h2 class="titleChiffres" id="titleChiffres">La croix rouge en chiffres <sub>(chiffres-clés en 2023)</sub></h2>
                     </div>
+                    <div>
                         <ul>
                             <li>Une communauté de 100 000 volontaires</li>
                         </ul>
@@ -57,6 +59,12 @@
                             <li>18 établissement de santé</li>
                             <li>5 services d'HAD</li>
                         </ul>
+                        
+                        <picture>
+                            <source media="(max-width:768px)" srcset="pictures/reunionCroixRouge.jpg">
+                            <img src="pictures/reunionCroixRouge.webp" alt="reunionCroixRouge" class="w-100">
+                        </picture>
+                    </div>
                 </article>
             </section>
             <section>
@@ -162,7 +170,19 @@
             </section>
         </main>
         <footer>
-
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#mentions">Mentions légales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#cgu">CGU</a>
+                    </li>
+                </ul>
+            </div>
         </footer>
         <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     </body>
