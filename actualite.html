@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>actualité, la préparation des JO Paris 2024</title>
+        <meta name="description" content="l'actualité de la Croix Rouge, la préparation des JO à Paris en 2024, les moyens mobilisés.">
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/styles.css" type="text/css">
+        <link rel="stylesheet" href="styles/screen.css" type="text/css"> <!--A RETIRER QUAND SASS FINI-->
+    </head>
+    <body>
+        <header class="container-fluid bg-danger headerActualite">
+            <div class="row align-items-end h-100">
+                <div class="col-4 col-lg-8 order-lg-2 p-3">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRedCross" aria-controls="navbarRedCross" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> <!--bouton de nav sur mobile-->                      
+                            <div class="collapse navbar-collapse" id="navbarRedCross">
+                                <ul class="navbar-nav m-1">
+                                    <li class="nav-item m-1"><a class="navlink" href="index.html"><img src="pictures/house-solid.svg" alt="Home" style="height: 32px;"></a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="index.html#titleChiffres">LES CHIFFRES</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="index.html#titleMission"> LES MISSIONS</a></li>
+                                    <li class="nav-item m-1"><a class="navlink btn btn-dark" href="actualite.html">L'ACTUALITE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-4 col-lg-2 order-lg-1 p-3"><img class="logoRedCross" src="pictures/crf_logo.png" alt="Logo Croix-Rouge"></div>
+                <div class="boutonDonActualite col-4 col-lg-2 p-3"><a class="boutonDonLink" href="https://donner.croix-rouge.fr/faire-un-don/~mon-don"><span class="boutonDon2"></span></a></div>
+            </div>
+        </header>
+        <main>
+            <section class="text-center">
+                <h1>Paris 2024, les secouristes mobilisés</h1>
+                <p>Publié le 3 octobre 2023</p>
+                <img src="pictures/JOParis2024.webp" alt="JO Paris 2024">
+                <div class="container-sm d-flex flex-column align-items-center">
+                        <h2>Le test event du 24 septembre, la préparation aux JO</h2>
+                        <p class="card-text">A dix mois du rendez-vous olympique, et de la mobilisation massive des bénévoles secouristes sur les Jeux 2024, un "test event" de l'épreuve olympique de VTT cross-country se tenait, le 24 septembre, sur la colline francilienne d'Elancourt. Pour les athlètes de la discipline, c'était l'occasion, unique, de découvrir le terrain sur lequel ils s'affronteront lors de Jeux en 2024. Et pour les équipiers secouristes présents, un avant-goût riche en émotions d'un événement planétaire mythique. </p>
+                        <p class="card-text">Ajuster, encore et toujours. L'enjeu Paris 2024 l'impose. Transports, accueil des spectateurs -3 000 ce jour-là- et bien sûr, dispositif de sécurité, tout doit être au cordeau. Directeur territorial de l'urgence et du secourisme dans les Yvelines, Cédric, son acolyte Pierre, et Christine, y travaillent depuis des mois. Les Jeux sont une grosse machine très codée, la coordination entre des dizaines et des dizaines d'acteurs est indispensable.</p>
+                    <div id="carouselJO" class="carousselJO carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="pictures/JOCaroussel1.webp" class="d-block w-100" alt="protection VTT">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pictures/JOCaroussel2.webp" class="d-block w-100" alt="secours parcours VTT">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pictures/JOCaroussel3.webp" class="d-block w-100" alt="extraction victime">
+                            </div>
+                        </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselJO" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselJO" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>                            
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#mentions">Mentions légales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-secondary" href="contact.html#cgu">CGU</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

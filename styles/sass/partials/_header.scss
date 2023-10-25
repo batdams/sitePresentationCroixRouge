@@ -1,4 +1,4 @@
-header {
+.headerIndex {
     @media screen and (max-width: 768px) {
         height: 150px;
     }
@@ -6,7 +6,6 @@ header {
     background-size: cover;
     height: 300px;
 }
-
 /*---Logo---*/
 .logoRedCross {
     /*Style pour les écrans mobiles*/
@@ -17,7 +16,7 @@ header {
     border-radius: 20px;
     opacity: 1;
 }
-.boutonDon {
+.boutonDonIndex {
     a {
         text-decoration: none;
         color: white;
@@ -39,7 +38,33 @@ header {
     background-color: red;
     text-align: center;
     position: fixed;
-    top: 50px;
+    top: 30px;
+    right: 20px;
+    border-radius: 50px;
+    }
+.boutonDonActualite {
+    a {
+        text-decoration: none;
+        color: white;
+        .boutonDon2:before {
+            content:"FAIRE UN DON";
+            font-weight: 600;
+        }
+        @media screen and (max-width: 768px) {
+            .boutonDon2:before {
+            content:"DON";
+          }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        width:80px;
+        top: 20px;
+    }
+    width:150px;
+    background-color: red;
+    text-align: center;
+    position: fixed;
+    top: 30px;
     right: 20px;
     border-radius: 50px;
     }

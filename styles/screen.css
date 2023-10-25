@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*@import "sass/partials/_variables.scss";
 @import "sass/partials/_body.scss";*/
-header {
+.headerIndex {
   background-image: url("../../../pictures/Hero-MMAGNIN_DPS_ARMADA_ROUEN_BD-9.webp");
   background-size: cover;
   height: 300px;
 }
 @media screen and (max-width: 768px) {
-  header {
+  .headerIndex {
     height: 150px;
   }
 }
@@ -25,32 +25,61 @@ header {
   }
 }
 
-.boutonDon {
+.boutonDonIndex {
   width: 150px;
   background-color: red;
   text-align: center;
   position: fixed;
-  top: 50px;
+  top: 30px;
   right: 20px;
   border-radius: 50px;
 }
-.boutonDon a {
+.boutonDonIndex a {
   text-decoration: none;
   color: white;
 }
-.boutonDon a .boutonDon2:before {
+.boutonDonIndex a .boutonDon2:before {
   content: "FAIRE UN DON";
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
-  .boutonDon a .boutonDon2:before {
+  .boutonDonIndex a .boutonDon2:before {
     content: "DON";
   }
 }
 @media screen and (max-width: 768px) {
-  .boutonDon {
+  .boutonDonIndex {
     width: 80px;
     top: 80px;
+  }
+}
+
+.boutonDonActualite {
+  width: 150px;
+  background-color: red;
+  text-align: center;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  border-radius: 50px;
+}
+.boutonDonActualite a {
+  text-decoration: none;
+  color: white;
+}
+.boutonDonActualite a .boutonDon2:before {
+  content: "FAIRE UN DON";
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .boutonDonActualite a .boutonDon2:before {
+    content: "DON";
+  }
+}
+@media screen and (max-width: 768px) {
+  .boutonDonActualite {
+    width: 80px;
+    top: 20px;
   }
 }
 
@@ -64,6 +93,12 @@ header {
   background: linear-gradient(to right, hsl(2, 64%, 58%), hsl(0, 100%, 15%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .carousselJO {
+    width: 75%;
+  }
 }
 
 body {
