@@ -102,10 +102,13 @@
 }
 
 .contactForm {
-  display: grid;
+  border-radius: 10px;
+  background-color: #ef8b8b;
 }
 
 .CGU {
+  border-radius: 10px;
+  background-color: #ef8b8b;
   font-size: small;
 }
 
